@@ -9,7 +9,16 @@ cd wrapper-chart
 helm template . | wc -l
 ```
 
-should not be 11.497 lines! Conditionals don't seem to be taken into account at all.
+should not be `11.497` lines! Conditionals don't seem to be taken into account at all.
+
+Compared this to the template with default values (note that mayastor is disabled in the default chart es well)
+
+```shell
+cd wrapper-chart/charts/openebs
+helm template . | wc -l
+```
+
+you will get `457` lines of yaml.
 
 ## Details
 
