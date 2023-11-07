@@ -1,0 +1,3 @@
+openebs:
+  mayastor:
+    enabled: false

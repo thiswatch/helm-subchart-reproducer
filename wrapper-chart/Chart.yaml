@@ -1,0 +1,4 @@
+apiVersion: v2
+name: my-openebs
+description: Parent chart for openebs.
+version: 0.1.0
